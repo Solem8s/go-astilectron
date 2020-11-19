@@ -182,6 +182,8 @@ type WebPreferences struct {
 	MinimumFontSize             *int                   `json:"minimumFontSize,omitempty"`
 	// This attribute needs to be true at all time
 	// NodeIntegration             *bool                  `json:"nodeIntegration,omitempty"`
+	NodeIntegration         *bool                  `json:"nodeIntegration,omitempty"`
+	DisableNodeIntegration  *bool                  `json:"disableNodeIntegration,omitempty"`
 	NodeIntegrationInWorker *bool                  `json:"nodeIntegrationInWorker,omitempty"`
 	Offscreen               *bool                  `json:"offscreen,omitempty"`
 	Partition               *string                `json:"partition,omitempty"`
